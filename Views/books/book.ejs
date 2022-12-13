@@ -1,0 +1,21 @@
+<% books.forEach(s=> 
+    { %> <p>
+        <b>Name:</b>
+        <%= s.Name %>
+        </p>
+
+        <p>
+        <b>Author:</b>
+        <%= s.Author %>
+        </p>
+
+        <p>
+        <b>Description:</b>
+        <%= s.Description %>
+        </p>
+        <hr/>
+        <p>
+        <img src="<%= s.Image %>" height="400px" width="250px">
+        </p>
+    <% });  
+%>
